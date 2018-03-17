@@ -1,0 +1,84 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #287ec5;
+    background-image: url("img/bg-texture.png");
+}
+
+h1 {
+    color: #287ec5;
+}
+
+h2 {
+    width: 130px;
+    margin:10px auto 10px auto;
+    color:#ffffff;
+    background-color: #287ec5;
+    padding:3px 7px;
+    border-radius: 10px;
+}
+
+th{
+    background-color: #ffffff88;
+    border-color: #287ec5;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    margin:2px 5px;
+}
+
+table b{
+    color: #287ec5;
+}
+
+.txtctr{
+    text-align: center;
+}
+
+.butn {
+    color:#ffffff;
+    padding: 3px 15px;
+    background-color: #287ec5;      
+    border-radius: 5px; 
+}
+
+.butn:hover{
+    background-color: #fac021;
+}
+
+.borad {
+    border-radius: 10px;
+}
+
+.rndback {
+    background-color:#ffffff88;
+    border-radius:10px;
+    margin: 0 5%;
+    padding:5px 0;
+}
+
+.mainpage {
+    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #f5f5f5;
+    box-shadow: 0px 0px 40px;
+    padding: 20px 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 900px) {
+    .mainpage {
+        width: 900px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .mainpage{
+        width: 100%;
+    }
+}
