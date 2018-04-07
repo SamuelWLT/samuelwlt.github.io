@@ -6,134 +6,173 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SAMMY | Personal Résumé</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <div class="mainpage">
-        <table width="90%" align="center">
-            <tr>
-                <td>
-                    <h1>Sammy</h1>
-                    <br>Personal Résumé
-                    <br>
-                    <a href="index.html" class="butn">
+    <div class="mainpage" id="mainp">
+        <div class="leftblock">
+            <div class="samimg">
+                <div class="samimgi">
+                    <img src="img/samimg.png" alt="Sammy's Photo" width="200px" />
+                </div>
+            </div>
+            <div class="lbtext">
+                <p>
+                    <font size="7" color="#c79a4c">
+                        <b>Sammy</b>
+                    </font>
+                </p>
+                <p align="right">
+                    <font size="5" color="#0a0a0a">Personal Résumé</font>
+                </p>
+                <br>
+                <br>
+                <a href="index.html">
+                    <div class="butn">
                         中文版
-                    </a>
-                </td>
-                <td>
-                    <img src="img/samimg.png" alt="Sammy's Photo" align="right" height="180px" class="borad" />
-                </td>
-            </tr>
-        </table>
-        <br>
-        <div class="rndback">
-            <table width="90%" align="center">
-                <tr>
-                    <td>
-                        <b>Name:</b>
-                    </td>
-                    <td>Sammy</td>
-                    <td>
-                        <b>Birthday:</b>
-                    </td>
-                    <td>1st January, 1998</td>
-                </tr>
-                <tr>
-                    <td>
-                        <b>Gender:</b>
-                    </td>
-                    <td>Male</td>
-                    <td>
-                        <b>Nationality:</b>
-                    </td>
-                    <td>China</td>
-                </tr>
-                <tr>
-                    <td>
-                        <b>Blood Type:</b>
-                    </td>
-                    <td>AB</td>
-                    <td>
-                        <b>Address:</b>
-                    </td>
-                    <td>Shanghai</td>
-                </tr>
-            </table>
+                    </div>
+                </a>
+                <br>
+                <div class="ldanimbox">
+                    <div class="ldanim"></div>
+                </div>
+            </div>
         </div>
-        <br>
-        <h2 align="center">
-            Education
-        </h2>
-        <table width="90%" align="center">
-            <tr>
-                <th>
-                    <b>Time</b>
-                </th>
-                <th>
-                    <b>School</b>
-                </th>
-                <th>
-                    <b>Occupation</b>
-                </th>
-            </tr>
-            <tr>
-                <td>2004~2010</td>
-                <td>xxx Elementary School</td>
-                <td>Student, Representative of Maths and PE lessons</td>
-            </tr>
-            <tr>
-                <td>2010~2013</td>
-                <td>xxx Middle School</td>
-                <td>Student, Representative of Chemistry lessons</td>
-            </tr>
-            <tr>
-                <td>2013~2016</td>
-                <td>xx School</td>
-                <td>Student, Class Commissary in Charge of Studies</td>
-            </tr>
-            <tr>
-                <td>2016~2020</td>
-                <td>
-                    <a href="http://www.suibe.edu.cn">Shanghai University of International Business and Economics</a>
-                </td>
-                <td>Student</td>
-            </tr>
-        </table>
-        <br>
-        <table align="center" width="90%">
-            <tr valign="top">
-                <td>
-                    <h2 align="center">
-                        Experience
-                    </h2>
-                    <ol>
-                        <li>Staff of the Songjiang Branch of XXX Co, Ltd.</li>
-                        <li>XXX Technologies Inc.</li>
-                    </ol>
-                </td>
-                <td> </td>
-                <td>
-                    <h2 align="center">
-                        Interests
-                    </h2>
-                    <ul type="circle">
-                        <li>Information Technology</li>
-                        <li>Swimming</li>
-                        <li>Designing</li>
-                        <li>Video Editing</li>
-                    </ul>
-                </td>
-            </tr>
-        </table>
-        <br>
-        <table align="center" width="90%">
-            <tr>
-                <td align="right">
-                    <i>(NOTE: This page was created for testing purposes only and all information shown is entirely fictional.)</i>
-                </td>
-            </tr>
-        </table>
+        <div class="rightblock">
+            <div class="contain1" id="basicinf">
+                <table width="80%" align="center">
+                    <tr>
+                        <td>
+                            <b>Name:</b>
+                        </td>
+                        <td>Sammy</td>
+                        <td>
+                            <b>Birthday:</b>
+                        </td>
+                        <td>1st January, 1998</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Gender:</b>
+                        </td>
+                        <td>Male</td>
+                        <td>
+                            <b>Nationality:</b>
+                        </td>
+                        <td>China</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Blood Type:</b>
+                        </td>
+                        <td>AB</td>
+                        <td>
+                            <b>Address:</b>
+                        </td>
+                        <td>Shanghai</td>
+                    </tr>
+                </table>
+            </div>
+            <br>
+            <h2>Education</h2>
+            <div class="contain1">
+                <table width="80%" align="center">
+                    <tr>
+                        <th>
+                            <b>Time</b>
+                        </th>
+                        <th>
+                            <b>School</b>
+                        </th>
+                        <th>
+                            <b>Occupation</b>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>2004~2010</td>
+                        <td>xxx Elementary School</td>
+                        <td>Student, Representative of Maths and PE lessons</td>
+                    </tr>
+                    <tr>
+                        <td>2010~2013</td>
+                        <td>xxx Middle School</td>
+                        <td>Student, Representative of Chemistry lessons</td>
+                    </tr>
+                    <tr>
+                        <td>2013~2016</td>
+                        <td>xx School</td>
+                        <td>Student, Class Commissary in Charge of Studies</td>
+                    </tr>
+                    <tr>
+                        <td>2016~2020</td>
+                        <td>
+                            <a href="http://www.suibe.edu.cn">Shanghai University of International Business and Economics</a>
+                        </td>
+                        <td>Student</td>
+                    </tr>
+                </table>
+            </div>
+            <br>
+            <div class="contain2">
+                <h2>Experience</h2>
+                <ol>
+                    <li>Staff of the Songjiang Branch of XXX Co, Ltd.</li>
+                    <li>XXX Technologies Inc.</li>
+                </ol>
+            </div>
+            <div class="contain2">
+                <h2>Interests</h2>
+                <ul type="circle">
+                    <li>Information Technology</li>
+                    <li>Swimming</li>
+                    <li>Designing</li>
+                    <li>Video Editing</li>
+                </ul>
+            </div>
+            <div class="contain2">
+                <h2>Awards</h2>
+                <ol>
+                    <li>20xx XXX Mathematics Competition Provincial Second Prize</li>
+                    <li>20xx XXX Computer Arts Competition District Third Prize</li>
+                    <li>20xx XXX Poetry Competition Provincial Third Prize</li>
+                </ol>
+            </div>
+            <div class="contain2">
+                <h2>Certificates</h2>
+                <ol>
+                    <li>NCRE Level 2 Microsoft Office Application</li>
+                    <li>NCRE Level 2 Java Programming</li>
+                    <li>NCRE Level 3 Embedded Systems Development</li>
+                    <li>CET Band 4 & 6 Certificate</li>
+                </ol>
+            </div>
+            <div class="contain2">
+                <h2>Language Proficiency</h2>
+                <ul>
+                    <li>Chinese (Native)</li>
+                    <li>English (Intermediate)</li>
+                    <li>German (Beginner)</li>
+                    <li>Russian (Beginner)</li>
+                </ul>
+            </div>
+            <div class="contain2">
+                <h2>Works</h2>
+                <ol>
+                    <li><i>HTML5 and CSS3 Quick Intro </i>(Article)</li>
+                    <li><i>A First Glance at JavaScript </i>(PPT interactive courseware)</li>
+                    <li><i>My Opinions on Internet Culture </i>(Speech)</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="fotrprep"></div>
+    <div class="fotr">
+        <div class="fotrc">
+            <p>
+                <i>NOTE: This page was created for testing purposes only and all information shown is entirely fictional.</i>
+            </p>
+        </div>
     </div>
 </body>
 
